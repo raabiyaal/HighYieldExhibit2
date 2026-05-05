@@ -1,0 +1,61 @@
+:root {
+  --paper: #fbfaf7;
+  --ink: #111111;
+  --grid: #a6a6a6;
+  --axis: #5f5f5f;
+  --first-mortgage: #d7ecc8;
+  --mezzanine: #6cbf43;
+  --investors: #52bcc4;
+  --operator: #21994d;
+  --curve: #3450b4;
+  --red: #ff3b30;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.95), transparent 40%),
+    linear-gradient(180deg, #f2f0ec 0%, #f7f5f1 100%);
+  color: var(--ink);
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.frame {
+  width: min(100%, 1380px);
+}
+
+#chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--paper);
+}
+
+text {
+  fill: var(--ink);
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+.title-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.label-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+}
