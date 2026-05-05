@@ -89,7 +89,7 @@ make("rect", {
   y: plotTop,
   width: plotWidth,
   height: plotHeight,
-  fill: "#ffffff",,
+  fill: "#ffffff",
 });
 
 const gridValues = Array.from({ length: 9 }, (_, index) => index * 0.2);
